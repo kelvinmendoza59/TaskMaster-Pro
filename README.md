@@ -11,28 +11,24 @@ TaskMaster Pro is an advanced web-based To-Do List application built using Flask
 ### 1. User Authentication
 The app includes a secure login and registration system, ensuring that each user has their own private task list.
 
-![Login Page](images/login.png)
-![Registration Page](images/register.png)
+![Login Page](images/login.jpg)
+![Registration Page](images/register.jpg)
 
 ### 2. Task Dashboard
 After logging in, users are presented with their task dashboard. This is where users can view, add, complete, and delete tasks. Each task can have a due date and a category, allowing for better organization.
 
-![Task Dashboard](images/task_management.png)
-
 ### 3. Task Management
 Users can easily manage their tasks directly from the dashboard. This includes adding new tasks, marking tasks as complete, and deleting tasks.
-
-![Task Management](images/task_operations.png)
 
 ### 4. Responsive Design
 The frontend is built with Bootstrap, ensuring a mobile-friendly experience across various devices.
 
-![Mobile View](images/mobile_view.png)
+![Mobile View](images/mobile_view.jpg)
 
 ### 5. RESTful API
 The application includes a RESTful API for task management, demonstrating the ability to create backend services.
 
-![API Response](images/api_response.png)
+![API Response](images/api_response.jpg)
 
 ## Technology Stack
 
@@ -43,7 +39,6 @@ The application includes a RESTful API for task management, demonstrating the ab
 - **API**: Flask-RESTful
 
 ## Project Structure
-
 TaskMaster-Pro/
 ├── app.py                 # Main Flask application
 ├── requirements.txt       # Python dependencies
@@ -53,8 +48,11 @@ TaskMaster-Pro/
 │   ├── index.html        # Main dashboard
 │   ├── login.html        # Login form
 │   └── register.html     # Registration form
-├── static/               # Static files (CSS, JS)
 ├── images/               # Screenshots for documentation
+│   ├── login.jpg         # Login page screenshot
+│   ├── register.jpg      # Registration page screenshot
+│   ├── mobile_view.jpg   # Mobile responsive view
+│   └── api_response.jpg  # API response example
 ├── instance/             # Database files
 │   └── taskmaster.db     # SQLite database
 └── venv/                 # Virtual environment (not in repo)
@@ -214,15 +212,3 @@ Bootstrap for responsive design components
 
 📝 Note: This project was developed as part of a web development portfolio to demonstrate full-stack development capabilities.
 Feel free to explore the code, suggest improvements, or reach out for collaboration opportunities!
-
-## Para usarlo:
-
-1. **Copia todo el texto de arriba**
-2. **Abre tu README.md local** y reemplaza todo el contenido
-3. **Guarda el archivo**
-4. **Haz commit y push**:
-
-```bash
-git add README.md
-git commit -m "Update README with comprehensive documentation"
-git push origin main
