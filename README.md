@@ -40,8 +40,8 @@ The application includes a RESTful API for task management, demonstrating the ab
 
 ## Project Structure
 TaskMaster-Pro/
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
+├── app.py                # Main Flask application
+├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
 ├── templates/            # HTML templates
 │   ├── base.html         # Base template
