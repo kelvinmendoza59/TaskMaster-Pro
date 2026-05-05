@@ -1,44 +1,71 @@
-# TaskMaster Pro
+# 🎓 TaskMaster Pro
 
-#### Video Demo: [https://www.youtube.com/watch?v=stsZTSPVnDM](https://www.youtube.com/watch?v=stsZTSPVnDM)
+> **Final Project for [CS50x — Introduction to Computer Science](https://cs50.harvard.edu/x/) | Harvard University**
 
-## Description
+[![Harvard CS50x](https://img.shields.io/badge/Harvard-CS50x-A51C30?style=for-the-badge&logo=harvard&logoColor=white)](https://cs50.harvard.edu/x/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-TaskMaster Pro is an advanced web-based To-Do List application built using Flask, SQLAlchemy, and SQLite. It demonstrates a range of full-stack development skills and incorporates several features that make it stand out in the realm of task management applications.
+## 🎥 Video Demo
 
-## Features
+📺 **[Watch the demo on YouTube](https://www.youtube.com/watch?v=stsZTSPVnDM)**
 
-### 1. User Authentication
-The app includes a secure login and registration system, ensuring that each user has their own private task list.
+## 📋 About This Project
+
+**TaskMaster Pro** is a full-stack web-based task management application built
+as the capstone project for **Harvard's CS50x (Introduction to Computer
+Science)** program. It demonstrates the application of computer science
+fundamentals to a complete production-style web application.
+
+The project integrates user authentication, database modeling, RESTful API
+design, and responsive frontend — covering the full breadth of skills taught
+throughout the CS50x curriculum.
+
+## ✨ Features
+
+### 🔐 1. User Authentication
+Secure login and registration system with password hashing (bcrypt) and
+session management (Flask-Login). Each user has a private, isolated task list.
 
 ![Login Page](images/login.jpg)
 ![Registration Page](images/register.jpg)
 
-### 2. Task Dashboard
-After logging in, users are presented with their task dashboard. This is where users can view, add, complete, and delete tasks. Each task can have a due date and a category, allowing for better organization.
+### 📋 2. Task Dashboard
+After logging in, users access their personal dashboard to view, add,
+complete, and delete tasks. Each task supports due dates and categories
+for organization.
 
-### 3. Task Management
-Users can easily manage their tasks directly from the dashboard. This includes adding new tasks, marking tasks as complete, and deleting tasks.
+### ⚙️ 3. Task Management
+Full CRUD operations directly from the dashboard — create new tasks, mark
+tasks as complete, and delete tasks with proper validation and error handling.
 
-### 4. Responsive Design
-The frontend is built with Bootstrap, ensuring a mobile-friendly experience across various devices.
+### 📱 4. Responsive Design
+Bootstrap-based frontend providing a mobile-friendly experience across
+all device sizes.
 
 ![Mobile View](images/mobile_view.jpg)
 
-### 5. RESTful API
-The application includes a RESTful API for task management, demonstrating the ability to create backend services.
+### 🔌 5. RESTful API
+Complete REST API for programmatic task management, demonstrating backend
+service design and API endpoint architecture.
 
 ![API Response](images/api_response.jpg)
 
-## Technology Stack
+## 🛠️ Technology Stack
 
-- **Backend**: Python, Flask, SQLAlchemy
-- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript
-- **Database**: SQLite
-- **Authentication**: Flask-Login, Flask-Bcrypt
-- **API**: Flask-RESTful
+| Layer | Technologies |
+|-------|--------------|
+| **Backend** | Python · Flask · SQLAlchemy ORM |
+| **Frontend** | HTML5 · CSS3 · Bootstrap · JavaScript |
+| **Database** | SQLite |
+| **Authentication** | Flask-Login · Flask-Bcrypt |
+| **API** | Flask-RESTful |
+| **Migrations** | Flask-Migrate |
 
-## Project Structure
+## 📁 Project Structure
+
+```
 TaskMaster-Pro/
 ├── app.py                # Main Flask application
 ├── requirements.txt      # Python dependencies
@@ -48,44 +75,44 @@ TaskMaster-Pro/
 │   ├── index.html        # Main dashboard
 │   ├── login.html        # Login form
 │   └── register.html     # Registration form
-├── images/               # Screenshots for documentation
-│   ├── login.jpg         # Login page screenshot
-│   ├── register.jpg      # Registration page screenshot
-│   ├── mobile_view.jpg   # Mobile responsive view
-│   └── api_response.jpg  # API response example
-├── instance/             # Database files
-│   └── taskmaster.db     # SQLite database
-└── venv/                 # Virtual environment (not in repo)
+├── images/               # Documentation screenshots
+│   ├── login.jpg
+│   ├── register.jpg
+│   ├── mobile_view.jpg
+│   └── api_response.jpg
+└── instance/             # Database files
+    └── taskmaster.db     # SQLite database
+```
 
-## Key Components
+## 🧠 Key Components
 
-### 1. `app.py`
-The main Flask application file containing:
+### `app.py` — Application Core
 - User authentication logic
 - Task CRUD operations
-- API endpoints
-- Database models for User and Task
+- API endpoint definitions
+- Database models (User, Task)
 
-### 2. Templates
-- **`base.html`**: Base template with common layout
-- **`index.html`**: Main task dashboard
-- **`login.html`** & **`register.html`**: Authentication forms
+### Templates
+- **`base.html`** — Shared layout with common navigation
+- **`index.html`** — Main task dashboard
+- **`login.html`** & **`register.html`** — Authentication forms
 
-### 3. Database Models
-- **User Model**: Handles user authentication and data
-- **Task Model**: Manages task information and relationships
+### Database Models
+- **User Model** — Authentication data and user-task relationships
+- **Task Model** — Task data, categories, due dates, soft delete
 
-## Technical Skills Demonstrated
+## 🎯 Computer Science Concepts Applied
 
-- ✅ **Backend Development**: Python, Flask framework
-- ✅ **Database Management**: SQLAlchemy ORM, SQLite
-- ✅ **Frontend Development**: Responsive HTML/CSS, Bootstrap
-- ✅ **Authentication**: Secure user login/registration
-- ✅ **API Development**: RESTful API endpoints
-- ✅ **Security**: Password hashing, session management
-- ✅ **Version Control**: Git and GitHub
+This project demonstrates concepts learned across the CS50x curriculum:
 
-## Setup and Installation
+- ✅ **Web Development** — HTTP, sessions, form handling
+- ✅ **Databases** — Schema design, ORM, foreign keys, transactions
+- ✅ **Security** — Password hashing, session management, CSRF protection
+- ✅ **API Design** — RESTful principles, HTTP methods, JSON serialization
+- ✅ **Software Engineering** — Modular code organization, separation of concerns
+- ✅ **Version Control** — Git workflow with meaningful commits
+
+## 🚀 Setup and Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -93,37 +120,55 @@ The main Flask application file containing:
 
 ### Installation Steps
 
-1. **Clone the repository**:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/kelvinmendoza59/TaskMaster-Pro.git
    cd TaskMaster-Pro
+   ```
 
-Create a virtual environment:
-bashpython -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-Install dependencies:
-bashpip install -r requirements.txt
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Initialize the database:
-bashpython
->>> from app import app, db
->>> with app.app_context():
-...     db.create_all()
->>> exit()
+4. **Initialize the database**
+   ```bash
+   python
+   >>> from app import app, db
+   >>> with app.app_context():
+   ...     db.create_all()
+   >>> exit()
+   ```
 
-Run the application:
-bashpython app.py
+5. **Run the application**
+   ```bash
+   python app.py
+   ```
 
-Access the application:
-Open your browser and navigate to http://localhost:5000
+6. **Access the application**
+   Open your browser at http://localhost:5000
 
-API Documentation
-The application provides a RESTful API for task management:
-Endpoints
-MethodEndpointDescriptionGET/api/tasksRetrieve all tasks for authenticated userPOST/api/tasksCreate a new taskPUT/api/tasks/<id>Update an existing taskDELETE/api/tasks/<id>Delete a task
-Example API Usage
-pythonimport requests
+## 🔌 API Documentation
+
+### Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/api/tasks` | Retrieve all tasks for authenticated user |
+| `POST` | `/api/tasks` | Create a new task |
+| `PUT` | `/api/tasks/<id>` | Update an existing task |
+| `DELETE` | `/api/tasks/<id>` | Delete a task |
+
+### Example API Usage
+
+```python
+import requests
 
 # Login to get session
 session = requests.Session()
@@ -142,73 +187,43 @@ new_task = {
     'category': 'Work'
 }
 response = session.post('http://localhost:5000/api/tasks', json=new_task)
-Dependencies
-Main Python packages used in this project:
+```
+
+## 📦 Dependencies
+
+```
 Flask==2.3.3
 Flask-SQLAlchemy==3.0.5
 Flask-Bcrypt==1.0.1
 Flask-Login==0.6.2
 Flask-RESTful==0.3.10
 Flask-Migrate==4.0.4
-Features in Detail
-Security Features
+```
 
-Password hashing using bcrypt
-Session management with Flask-Login
-Protected routes requiring authentication
-CSRF protection
+## 🔒 Security Features
 
-Database Features
+- Password hashing with **bcrypt**
+- Session management via **Flask-Login**
+- Protected routes requiring authentication
+- CSRF protection
+- SQL injection prevention through SQLAlchemy ORM
 
-User registration and authentication
-Task creation with categories and due dates
-Soft delete functionality
-Data validation and constraints
+## 📜 License
 
-UI/UX Features
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
-Responsive design for mobile and desktop
-Bootstrap styling for modern appearance
-Interactive task management
-Flash messaging for user feedback
+## 👨‍💻 Developer
 
-Future Enhancements
+**Kelvin Mendoza**
+- GitHub: [@kelvinmendoza59](https://github.com/kelvinmendoza59)
 
- Task sharing between users
- Email notifications for due dates
- Calendar view integration
- Task priority levels
- Advanced filtering and search
- Export functionality (PDF, CSV)
- Dark mode theme
- Multi-language support
+## 🙏 Acknowledgments
 
-Testing
-To run tests (when implemented):
-bashpython -m pytest tests/
-Contributing
+- **CS50 staff at Harvard University** for the foundational curriculum
+- **CS50 community** on edX for support throughout the program
+- **Flask & SQLAlchemy** documentation and community
+- **Bootstrap** for responsive design components
 
-Fork the repository
-Create a feature branch: git checkout -b feature-name
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin feature-name
-Submit a pull request
+---
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Developer Information
-
-Developer: Kelvin Mendoza
-edX Account: kelvinmendoza309
-GitHub: @kelvinmendoza59
-Email: Contact via GitHub
-
-Acknowledgments
-
-CS50 Web Programming course for foundational knowledge
-Flask documentation and community
-Bootstrap for responsive design components
-
-
-📝 Note: This project was developed as part of a web development portfolio to demonstrate full-stack development capabilities.
-Feel free to explore the code, suggest improvements, or reach out for collaboration opportunities!
+> 🎓 *Built as the final project for [CS50x](https://cs50.harvard.edu/x/) — Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.*
