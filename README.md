@@ -1,8 +1,8 @@
 # 🎓 TaskMaster Pro
 
-> **Final Project for [CS50x — Introduction to Computer Science](https://cs50.harvard.edu/x/) | Harvard University**
+> **Final Project for [CS50x — Introduction to Computer Science](https://cs50.harvard.edu/x/) | HarvardX (online via edX)**
 
-[![Harvard CS50x](https://img.shields.io/badge/Harvard-CS50x-A51C30?style=for-the-badge&logo=harvard&logoColor=white)](https://cs50.harvard.edu/x/)
+[![HarvardX CS50x](https://img.shields.io/badge/HarvardX-CS50x-A51C30?style=for-the-badge&logoColor=white)](https://cs50.harvard.edu/x/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -14,8 +14,8 @@
 ## 📋 About This Project
 
 **TaskMaster Pro** is a full-stack web-based task management application built
-as the capstone project for **Harvard's CS50x (Introduction to Computer
-Science)** program. It demonstrates the application of computer science
+as the capstone project for **HarvardX's CS50x (Introduction to Computer
+Science)** online course. It demonstrates the application of computer science
 fundamentals to a complete production-style web application.
 
 The project integrates user authentication, database modeling, RESTful API
@@ -219,11 +219,11 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 🙏 Acknowledgments
 
-- **CS50 staff at Harvard University** for the foundational curriculum
+- **CS50 staff at HarvardX** for the foundational curriculum
 - **CS50 community** on edX for support throughout the program
 - **Flask & SQLAlchemy** documentation and community
 - **Bootstrap** for responsive design components
 
 ---
 
-> 🎓 *Built as the final project for [CS50x](https://cs50.harvard.edu/x/) — Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.*
+> 🎓 *Built as the final project for [CS50x](https://cs50.harvard.edu/x/) — HarvardX's online introduction to the intellectual enterprises of computer science and the art of programming.*
